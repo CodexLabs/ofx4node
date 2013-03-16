@@ -1,6 +1,14 @@
 # ofx4node
 
-ofx4node is a library for downloading statements from financial institutes like banks and credit card companies. The simplest way to use the library is to call `ofx4node.downloadStatement()` like this:
+ofx4node is a library for downloading statements from financial institutes like banks and credit card companies. 
+
+##Install it
+Install it using NPM:
+```
+npm install ofx4node
+```
+##Use it
+The simplest way to use the library is to call `ofx4node.downloadStatement()` like this:
 
 ```js
 var ofx4node = require('ofx4node');
@@ -27,13 +35,13 @@ ofx4node.downloadStatement(institute,account,options,function(error,ofx){
   //do something with your statement
 });
 ```
-##Institutes, Accounts, and Options
+###Institutes, Accounts, and Options
 There are JSON schemas created for each of these so that you can see what information is required. The schemas can be found in lib/schema.js.
 
-###Institute Information
+####Institute Information
 You can find the information needed to create an institute instance at [Ofx Home] (http://www.ofxhome.com/index.php/home/directory).
 
-##Sample OFX Statement JSON
+###Sample OFX Statement JSON
 This is an example of the ofx object that would be passed to the callback function in the above code. This example is generated from the OFX in the test/test.ofx file. 
 ```json
 {
