@@ -25,10 +25,7 @@
     "handlebars": "~1.0.9",
     "request": "~2.14.0",
     "moment": "~2.0.0",
-    "json-gate": "~0.8.21",
-    "log4js": "~0.5.7",
-    "blammo": "~0.4.3",
-    "winston": "~0.6.2"
+    "json-gate": "~0.8.21"
   },
   "devDependencies": {
     "jasmine-node": "~1.3.0",
