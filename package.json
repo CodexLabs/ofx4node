@@ -16,8 +16,8 @@
     "OFX"
   ],
   "author": "Kurt Rush",
-  "license": "Apache 2.0",
-  "readmeFilename": "README",
+  "license": "MIT License",
+  "readmeFilename": "README.md",
   "gitHead": "5485d699b5d5544b8612a308e56020a8047f09cb",
   "dependencies": {
     "sax": "~0.5.2",
