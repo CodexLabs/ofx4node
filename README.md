@@ -1,6 +1,6 @@
-# ofx4node
+# ofx4node [![Build Status](https://secure.travis-ci.org/krush/ofx4node.png)](http://travis-ci.org/krush/ofx4node)
 
-ofx4node is a library for downloading statements from financial institutes like banks and credit card companies. 
+ofx4node is a library for downloading statements from financial institutes like banks and credit card companies.
 
 ##Install it
 Install it using NPM:
